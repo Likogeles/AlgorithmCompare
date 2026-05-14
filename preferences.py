@@ -101,4 +101,13 @@ nutrition = [
     "restaurant"
     ]
 
-prefs = [military, religion, architecture, transport, sight, interactive, nutrition, housing]
+prefs = {
+    "military": military,
+    "religion": religion,
+    "architecture": architecture,
+    "transport": transport,
+    "sight": sight,
+    "interactive": interactive,
+    "nutrition": nutrition,
+    "housing": housing
+}
