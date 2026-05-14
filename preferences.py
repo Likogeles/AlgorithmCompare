@@ -1,5 +1,3 @@
-prefs = ["military", "religion", "architecture", "transport", "sight", "interactive", "nutrition", "housing"]
-
 military = [
     "battlefield"
     ]
@@ -102,3 +100,5 @@ nutrition = [
     "cafe",
     "restaurant"
     ]
+
+prefs = [military, religion, architecture, transport, sight, interactive, nutrition, housing]
