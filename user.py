@@ -1,63 +1,95 @@
 user_prefs = {
-    "military": 14,
-    "religion": 3,
-    "architecture": 3,
-    "transport": 15,
-    "sight": 5,
-    "interactive": 5,
-    "nutrition": 1,
-    "housing": 1
+    "military": 5,
+    "religion": 1,
+    "architecture": 1,
+    "transport": 3,
+    "sight": 1,
+    "interactive": 2,
+    "nutrition": 0,
+    "housing": 0
     }
 
 
 user_2_religion_focus = {
     "military": 1,
-    "religion": 15,
-    "architecture": 10,
+    "religion": 5,
+    "architecture": 5,
     "transport": 1,
     "sight": 5,
     "interactive": 1,
-    "nutrition": 1,
-    "housing": 1
+    "nutrition": 0,
+    "housing": 0
     }
 
-user_3_transport_focus = {
-    "military": 10,
+user_3_food_focus = {
+    "military": 1,
     "religion": 1,
-    "architecture": 4,
-    "transport": 15,
-    "sight": 5,
-    "interactive": 2,
-    "nutrition": 1,
-    "housing": 1
+    "architecture": 1,
+    "transport": 1,
+    "sight": 1,
+    "interactive": 1,
+    "nutrition": 5,
+    "housing": 0
     }
 
 user_4_interactive_focus = {
-    "military": 5,
+    "military": 3,
     "religion": 1,
     "architecture": 1,
-    "transport": 10,
-    "sight": 5,
-    "interactive": 15,
-    "nutrition": 1,
-    "housing": 1
+    "transport": 3,
+    "sight": 2,
+    "interactive": 5,
+    "nutrition": 0,
+    "housing": 0
     }
 
 experiments = [
     {
-        "name": "user_1_military_focus",
+        "name": "user_1_1_military_focus",
         "user_prefs": user_prefs,
     },
     {
-        "name": "user_2_religion_focus",
+        "name": "user_1_2_military_focus",
+        "user_prefs": user_prefs,
+    },
+    {
+        "name": "user_1_3_military_focus",
+        "user_prefs": user_prefs,
+    },
+    {
+        "name": "user_1_4_military_focus",
+        "user_prefs": user_prefs,
+    },
+    {
+        "name": "user_2_1_religion_focus",
         "user_prefs": user_2_religion_focus,
     },
     {
-        "name": "user_3_transport_focus",
-        "user_prefs": user_3_transport_focus,
+        "name": "user_2_2_religion_focus",
+        "user_prefs": user_2_religion_focus,
     },
     {
-        "name": "user_4_interactive_focus",
-        "user_prefs": user_4_interactive_focus,
+        "name": "user_2_3_religion_focus",
+        "user_prefs": user_2_religion_focus,
+    },
+    {
+        "name": "user_2_4_religion_focus",
+        "user_prefs": user_2_religion_focus,
+    },
+    {
+        "name": "user_3_1_food_focus",
+        "user_prefs": user_3_food_focus,
+    },
+    {
+        "name": "user_3_2_food_focus",
+        "user_prefs": user_3_food_focus,
+    },
+    {
+        "name": "user_3_3_food_focus",
+        "user_prefs": user_3_food_focus,
+    },
+    {
+        "name": "user_3_4_food_focus",
+        "user_prefs": user_3_food_focus,
     },
 ]

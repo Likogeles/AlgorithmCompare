@@ -1,5 +1,7 @@
 military = [
-    "battlefield"
+    "battlefield",
+    "historic",
+    # "memorial"
     ]
 
 religion = [
@@ -16,12 +18,10 @@ architecture = [
     "epigraph",
     "fountain",
     "gate",
-    "historic",
     "hospital",
     "lean_to",
     "archaeological_site",
     "manor",
-    "memorial",
     "milestone",
     "ruins",
     "suburb"
