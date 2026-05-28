@@ -85,15 +85,15 @@ interactive = [
     ]
 
 housing = [
-    "apartment",
-    "camp_site",
-    "caravan_site",
-    "chalet",
-    "dormitory",
-    "guest_house",
-    "hostel",
-    "hotel",
-    "motel"
+    # "apartment",
+    # "camp_site",
+    # "caravan_site",
+    # "chalet",
+    # "dormitory",
+    # "guest_house",
+    # "hostel",
+    # "hotel",
+    # "motel"
     ]
 
 nutrition = [

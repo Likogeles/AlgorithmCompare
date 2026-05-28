@@ -5,7 +5,7 @@ user_prefs = {
     "transport": 3,
     "sight": 1,
     "interactive": 2,
-    "nutrition": 0,
+    "nutrition": 1,
     "housing": 0
     }
 
@@ -17,7 +17,7 @@ user_2_religion_focus = {
     "transport": 1,
     "sight": 5,
     "interactive": 1,
-    "nutrition": 0,
+    "nutrition": 1,
     "housing": 0
     }
 
@@ -39,7 +39,7 @@ user_4_interactive_focus = {
     "transport": 3,
     "sight": 2,
     "interactive": 5,
-    "nutrition": 0,
+    "nutrition": 1,
     "housing": 0
     }
 
@@ -48,48 +48,36 @@ experiments = [
         "name": "user_1_1_military_focus",
         "user_prefs": user_prefs,
     },
-    # {
-    #     "name": "user_1_2_military_focus",
-    #     "user_prefs": user_prefs,
-    # },
-    # {
-    #     "name": "user_1_3_military_focus",
-    #     "user_prefs": user_prefs,
-    # },
-    # {
-    #     "name": "user_1_4_military_focus",
-    #     "user_prefs": user_prefs,
-    # },
-    # {
-    #     "name": "user_2_1_religion_focus",
-    #     "user_prefs": user_2_religion_focus,
-    # },
-    # {
-    #     "name": "user_2_2_religion_focus",
-    #     "user_prefs": user_2_religion_focus,
-    # },
-    # {
-    #     "name": "user_2_3_religion_focus",
-    #     "user_prefs": user_2_religion_focus,
-    # },
-    # {
-    #     "name": "user_2_4_religion_focus",
-    #     "user_prefs": user_2_religion_focus,
-    # },
+    {
+        "name": "user_1_2_military_focus",
+        "user_prefs": user_prefs,
+    },
+    {
+        "name": "user_1_3_military_focus",
+        "user_prefs": user_prefs,
+    },
+    {
+        "name": "user_1_4_military_focus",
+        "user_prefs": user_prefs,
+    },
+    {
+        "name": "user_2_1_religion_focus",
+        "user_prefs": user_2_religion_focus,
+    },
+    {
+        "name": "user_2_2_religion_focus",
+        "user_prefs": user_2_religion_focus,
+    },
+    {
+        "name": "user_2_3_religion_focus",
+        "user_prefs": user_2_religion_focus,
+    },
+    {
+        "name": "user_2_4_religion_focus",
+        "user_prefs": user_2_religion_focus,
+    },
     # {
     #     "name": "user_3_1_food_focus",
-    #     "user_prefs": user_3_food_focus,
-    # },
-    # {
-    #     "name": "user_3_2_food_focus",
-    #     "user_prefs": user_3_food_focus,
-    # },
-    # {
-    #     "name": "user_3_3_food_focus",
-    #     "user_prefs": user_3_food_focus,
-    # },
-    # {
-    #     "name": "user_3_4_food_focus",
     #     "user_prefs": user_3_food_focus,
     # },
 ]
