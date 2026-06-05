@@ -2,11 +2,11 @@ user_prefs = {
     "military": 5,
     "religion": 1,
     "architecture": 1,
-    "transport": 3,
+    "transport": 5,
     "sight": 1,
     "interactive": 2,
     "nutrition": 1,
-    "housing": 0
+    "housing": 1
     }
 
 

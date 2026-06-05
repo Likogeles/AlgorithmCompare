@@ -1,6 +1,6 @@
 military = [
     "battlefield",
-    "historic",
+    # "historic",
     # "memorial"
     ]
 
