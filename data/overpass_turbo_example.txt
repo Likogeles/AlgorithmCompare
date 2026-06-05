@@ -1,0 +1,20 @@
+[out:json][timeout:300];
+
+area
+  ["name"="Санкт-Петербург"]
+  ["admin_level"="4"]
+  ->.searchArea;
+
+(
+  node["tourism"](area.searchArea);
+
+  node["historic"](area.searchArea);
+
+  node["natural"](area.searchArea);
+
+  node["leisure"="park"](area.searchArea);
+
+  node["amenity"="theatre"](area.searchArea);
+);
+
+out center tags;
