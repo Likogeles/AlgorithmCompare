@@ -9,7 +9,6 @@ user_prefs = {
     "housing": 1
     }
 
-
 user_2_religion_focus = {
     "military": 1,
     "religion": 5,
